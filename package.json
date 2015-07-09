@@ -1,0 +1,23 @@
+{
+  "name": "asyncawait-examples",
+  "version": "1.0.0",
+  "description": "Some examples demonstrating how async/await for node works.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peymanmortazavi/AsyncAwait-Examples.git"
+  },
+  "author": "Peyman Mortazavi <pey.mortazavi@gmail.com> (https://www.linkedin.com/pub/peyman-mortazavi/50/b51/73b)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peymanmortazavi/AsyncAwait-Examples/issues"
+  },
+  "homepage": "https://github.com/peymanmortazavi/AsyncAwait-Examples#readme",
+  "dependencies": {
+    "asyncawait": "^0.7.4",
+    "bluebird": "^2.9.33"
+  }
+}
