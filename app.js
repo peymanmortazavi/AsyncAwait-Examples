@@ -3,7 +3,13 @@ var await = require('asyncawait/await');
 var Promise = require('bluebird');
 var fs = Promise.promisifyAll(require('fs'));
 
-var a = fs.readFileAsync('data.txt', 'utf8');
-a.then(function(v){console.log(v)});
+var f = async(function() {
+  await(Promise.delay(500));
+  return await(21);
+})
 
-var b = await(fs.readFileAsync('data.txt', 'utf8'));
+function g() {
+  f().then(function(x){console.log(x)});
+}
+
+g();
